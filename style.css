@@ -1,0 +1,23 @@
+#tabs{
+	background-color: green;
+	width: 800px;
+	margin: 20px auto;
+}
+.menu a{
+	display: block;
+	float: left;
+	padding: 10px 20px;
+	background-color: limegreen;
+	border-right: 1px white solid;
+}
+#tabs .content{
+	clear: both;
+
+}
+#tabs .content div {
+background-color: lightgreen;
+height: 400px;
+}
+#tabs .menu a.active{
+	background-color: lightgreen;
+}
